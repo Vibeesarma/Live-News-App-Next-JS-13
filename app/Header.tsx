@@ -1,5 +1,9 @@
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+
+import NavLinks from "./NavLinks";
+
+
 const Header = () => {
   return (
     <header>
@@ -7,7 +11,9 @@ const Header = () => {
         <Bars3Icon className="h-8 w-8 cursor-pointer" />
         <Link href="/">
           <h1 className="font-serif text-4xl text-center">
-            The{" "}<span className="underline decoration-orange-400">VIBEESARMA</span>{" "}News
+            The{" "}
+            <span className="underline decoration-orange-400 docoration-6">VIBEESARMA</span>{" "}
+            News
           </h1>
         </Link>
         <div className="flex items-center justify-end space-x-2">
@@ -17,6 +23,9 @@ const Header = () => {
           </button>
         </div>
       </div>
+      {/* Nav Links */}
+      <NavLinks />
+      {/* Search box */}
     </header>
   );
 };
