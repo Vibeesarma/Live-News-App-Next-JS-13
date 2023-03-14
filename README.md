@@ -30,3 +30,26 @@ npm install -g stepzen
     - also you can add some option parameter there if you add those to filter out the data
     - after running the command on terminal to start stepzen ```stepzen start```
 
+## tailwind line clamp
+
+* this helps you add a text after ... if you have text more lines. when you want add this you want to install ```npm i @tailwindcss/line-clamp ```
+
+* then go your ```tailwind.config.js ``` file add this is your plugin ```require('@tailwindcss/line-clamp')```
+
+```typescript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
+}
+```
+

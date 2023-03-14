@@ -7,7 +7,6 @@ import NavLink from "./NavLink";
 
 const NavLinks = () => {
   const pathname = usePathname();
-  console.log("🚀 ~ file: NavLinks.tsx:11 ~ NavLinks ~ pathname:", pathname);
 
   const isActive = (path: string) => {
     return pathname?.split("/").pop() === path;
