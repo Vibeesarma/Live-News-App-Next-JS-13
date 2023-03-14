@@ -1,9 +1,9 @@
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import Link from "next/link";
+import DarkModeButton from "./DarkModeButton";
 
 import NavLinks from "./NavLinks";
 import SearchBox from "./SearchBox";
-
 
 const Header = () => {
   return (
@@ -13,12 +13,15 @@ const Header = () => {
         <Link href="/">
           <h1 className="font-serif text-4xl text-center">
             The{" "}
-            <span className="underline decoration-orange-400 docoration-6">VIBEESARMA</span>{" "}
+            <span className="underline decoration-orange-400 docoration-6">
+              VIBEESARMA
+            </span>{" "}
             News
           </h1>
         </Link>
         <div className="flex items-center justify-end space-x-2">
           {/* Dark mode  Button*/}
+          <DarkModeButton />
           <button className="hidden md:inline bg-slate-900 text-white px-4 lg:px-8 py-2 lg:py-4 rounded-full dark:bg-slate-800">
             Subscribe Now
           </button>
@@ -27,7 +30,7 @@ const Header = () => {
       {/* Nav Links */}
       <NavLinks />
       {/* Search box */}
-      <SearchBox/>
+      <SearchBox />
     </header>
   );
 };
