@@ -24,7 +24,7 @@ type Root {
 type Query {
   myQuery(
     access_key: String
-    sources: String
+    categories: String
     courtries: String
     limit: String
     offset: String
