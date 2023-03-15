@@ -95,3 +95,11 @@ module.exports = {
   plugins: [require("@tailwindcss/line-clamp")],
 };
 ```
+
+## React Time ago
+
+- this was used for shows like 2 min ago, 5h ago put use this package when you want this install ```yarn add react-timeago```.
+
+- if you use type script also install this for type declaration ```yarn add -D @types/react-timeago```.
+
+
