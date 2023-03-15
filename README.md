@@ -6,6 +6,8 @@
 
 - when you change this page to statistic you want to generate a page when that function default next.js gives you
 
+- also,use default ``loading.tsx``` file for loading.
+
 ## Mediastack
 
 - mediastack gives you a free news api.
@@ -98,8 +100,6 @@ module.exports = {
 
 ## React Time ago
 
-- this was used for shows like 2 min ago, 5h ago put use this package when you want this install ```yarn add react-timeago```.
+- this was used for shows like 2 min ago, 5h ago put use this package when you want this install `yarn add react-timeago`.
 
-- if you use type script also install this for type declaration ```yarn add -D @types/react-timeago```.
-
-
+- if you use type script also install this for type declaration `yarn add -D @types/react-timeago`.
