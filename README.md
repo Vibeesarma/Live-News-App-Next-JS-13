@@ -4,6 +4,8 @@
 
 - Here we use to get data from the database using Graphql query so we package `npm i graphql-request` also you want package `npm i graphql`
 
+- when you change this page to statistic you want to generate a page when that function default next.js gives you
+
 ## Mediastack
 
 - mediastack gives you a free news api.
