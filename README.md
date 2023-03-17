@@ -1,5 +1,9 @@
 # LIVE News App in Next.js 13
 
+
+![image](https://user-images.githubusercontent.com/77588716/225984054-ff51d768-078b-4ab6-9c53-cf2a682c0609.png)
+
+
 >This project get from [Sonny Sangha](https://www.youtube.com/@SonnySangha) YouTube channel
 
 >Project Link [Let’s build a LIVE NEWS APP with Next.js 13 (TypeScript, StepZen, Tailwind, Dark Mode, GraphQL)](https://www.youtube.com/watch?v=QcEY72FX9go)
@@ -11,28 +15,27 @@
 
 - when you change this page to statistic you want to generate a page when that function default next.js gives you
 
-- also,use default ``loading.tsx``` file for loading.
+- also,use default ```loading.tsx``` file for loading.
 
 ## Mediastack
 
-- mediastack gives you a free news api.
+- [mediastack](https://mediastack.com/) gives you a free news api.
   - it gives you 500 free API so you can get them from there for testing purposes.
 
 ## StepZen
 
 - this middleware gives a connection between graphql so much easier.
 
-- In here you want to install stepzen to your terminal add globally
+- In here you want to install [stepzen](https://stepzen.com/) to your terminal add globally
   -this is the one you want to run
 
 ```bash
 npm install -g stepzen
 ```
 
-    -  login your account it gives by stepzen guide
-    -  then copy the api from dashboard
-    -  after that run ```stepzen init``` in your root directory terminal it will create stepzen config file for you.
-    -
+   -  login your account it gives by stepzen guide
+   -  then copy the api from dashboard
+   -  after that run ```stepzen init``` in your root directory terminal it will create stepzen config file for you.
 
 - go to your stepzen account and gets your RestAPI added command.
   - this is a command `stepzen import curl` paste it your terminal.
@@ -44,7 +47,7 @@ npm install -g stepzen
 
 ## Tailwind line clamp
 
-- this helps you add a text after ... if you have text more lines. when you want add this you want to install `npm i @tailwindcss/line-clamp `
+- [Tailwind clamp](https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp) helps you add a text after ... if you have text more lines. when you want add this you want to install `npm i @tailwindcss/line-clamp `
 
 - then go your `tailwind.config.js ` file add this is your plugin `require('@tailwindcss/line-clamp')`
 
@@ -105,6 +108,8 @@ module.exports = {
 
 ## React Time ago
 
-- this was used for shows like 2 min ago, 5h ago put use this package when you want this install `yarn add react-timeago`.
+- [React Time ago](https://www.npmjs.com/package/react-timeago) was used for shows like 2 min ago, 5h ago put use this package when you want this install `yarn add react-timeago`.
 
 - if you use type script also install this for type declaration `yarn add -D @types/react-timeago`.
+
+> Thanks for [Sonny Sangha](https://www.youtube.com/@SonnySangha)
