@@ -1,5 +1,10 @@
 # LIVE News App in Next.js 13
 
+>This project get from [Sonny Sangha](https://www.youtube.com/@SonnySangha) YouTube channel
+
+>Project Link [Let’s build a LIVE NEWS APP with Next.js 13 (TypeScript, StepZen, Tailwind, Dark Mode, GraphQL)](https://www.youtube.com/watch?v=QcEY72FX9go)
+
+
 - Next.js 13 has so many new features one of the new ones useRouter in come from `"next/navigation" ` do not use next.js 12 router here it will affect the code.
 
 - Here we use to get data from the database using Graphql query so we package `npm i graphql-request` also you want package `npm i graphql`
